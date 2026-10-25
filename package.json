@@ -1,0 +1,31 @@
+{
+  "name": "selfsend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted, Resend-compatible email sending platform (API + dashboard) on Amazon SES",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "dev": "node --watch src/server.ts",
+    "cli": "node src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.1152.0",
+    "@aws-sdk/client-sns": "^3.1152.0",
+    "@hono/node-server": "^1.19.17",
+    "hono": "^4.13.13",
+    "nodemailer": "^7.0.13",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/nodemailer": "^8.0.2",
+    "resend": "^6.34.1",
+    "typescript": "^5.9.3"
+  }
+}

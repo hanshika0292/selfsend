@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment files (keep the example)
+.env
+.env.*
+!.env.example
+
+# Local data: SQLite database, backups, dev outbox (data/outbox/*.eml)
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build and test output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
