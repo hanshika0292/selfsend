@@ -24,7 +24,7 @@
     "@aws-sdk/client-sesv2": "^3.1152.0",
     "@aws-sdk/client-sns": "^3.1152.0",
     "@hono/node-server": "^2.1.6",
-    "hono": "^4.13.13",
+    "hono": "^4.13.16",
     "nodemailer": "^10.1.7",
     "zod": "^4.6.7"
   },
