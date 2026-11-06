@@ -6,8 +6,8 @@ icons, images or data.
 ## npm dependencies
 
 The packages listed in `package.json` (Hono, `@hono/node-server`, zod, Nodemailer, the AWS SDK
-for JavaScript v3 clients for SES and SNS, and for development TypeScript, `@types/*` and the
-`resend` SDK) are installed from npm by `npm install` / `npm ci` and are not part of this
+for JavaScript v3 clients for SES and SNS, and for development TypeScript, `@types/*`, the
+`resend` SDK and `postal-mime`) are installed from npm by `npm install` / `npm ci` and are not part of this
 repository. Each is used under its own licence (MIT, MIT-0 or Apache-2.0; see each package's
 `LICENSE` file in `node_modules`).
 

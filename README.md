@@ -1,5 +1,6 @@
 # SelfSend: self-hosted, Resend-compatible email API and dashboard on Amazon SES
 
+[![CI](https://github.com/hanshika0292/selfsend/actions/workflows/ci.yml/badge.svg)](https://github.com/hanshika0292/selfsend/actions/workflows/ci.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Node.js 22.18+](https://img.shields.io/badge/Node.js-22.18%2B-339933.svg)
 ![TypeScript and Hono](https://img.shields.io/badge/TypeScript-Hono-3178C6.svg)
