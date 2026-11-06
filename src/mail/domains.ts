@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { resolveTxt } from 'node:dns/promises';
 import {
   CreateEmailIdentityCommand,

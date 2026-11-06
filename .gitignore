@@ -26,5 +26,9 @@ build/
 coverage/
 *.tsbuildinfo
 
-# OS files
+# OS and editor files
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

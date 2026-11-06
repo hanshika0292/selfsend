@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { serve } from '@hono/node-server';
 import { app } from './app.ts';
 import { config } from './config.ts';

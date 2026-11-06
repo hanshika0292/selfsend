@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import type { Context } from 'hono';
 import { layout, type Html } from './layout.ts';
 

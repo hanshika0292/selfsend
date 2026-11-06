@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { Hono, type Context, type Next } from 'hono';
 import type { ContentfulStatusCode } from 'hono/utils/http-status';
 import { one, run } from '../db.ts';

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { run } from '../db.ts';
 import { recordEmailEvent } from '../events.ts';
 import type { StoredAttachment, Tag } from '../models.ts';
