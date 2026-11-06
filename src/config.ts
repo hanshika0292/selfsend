@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 export type TransportKind = 'ses' | 'smtp' | 'log';
 
 function num(name: string, fallback: number): number {

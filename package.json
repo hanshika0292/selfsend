@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "description": "Self-hosted, Resend-compatible email sending platform (API + dashboard) on Amazon SES",
+  "license": "MIT",
+  "author": "Hanshika Gupta",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanshika0292/selfsend.git"
+  },
   "type": "module",
   "engines": {
     "node": ">=22.18"

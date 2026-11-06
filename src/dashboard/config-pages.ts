@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { Hono } from 'hono';
 import { html } from 'hono/html';
 import { createApiKey, revokeApiKey } from '../api/api-keys.ts';

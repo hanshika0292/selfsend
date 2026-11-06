@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { createHmac } from 'node:crypto';
 import { config } from './config.ts';
 import { all, one, run, tx } from './db.ts';

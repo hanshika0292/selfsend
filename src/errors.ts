@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import type { ContentfulStatusCode } from 'hono/utils/http-status';
 
 /** Error names mirror the `RESEND_ERROR_CODE_KEY` union shipped in the resend SDK. */

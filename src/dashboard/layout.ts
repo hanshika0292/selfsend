@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { html, raw } from 'hono/html';
 
 export type Html = ReturnType<typeof html>;

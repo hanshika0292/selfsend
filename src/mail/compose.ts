@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { config } from '../config.ts';
 import type { ContactRow } from '../models.ts';
 import { parseJson, signToken } from '../util.ts';

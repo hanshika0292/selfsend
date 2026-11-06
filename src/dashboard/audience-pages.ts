@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { Hono } from 'hono';
 import { html } from 'hono/html';
 import { createSegment, deleteContact, findContact, upsertContact } from '../api/contacts.ts';

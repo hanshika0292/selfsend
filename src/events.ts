@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { all, one, run } from './db.ts';
 import type { EmailRow, Tag, WebhookRow } from './models.ts';
 import { bareAddress, now, parseJson, uuidv7 } from './util.ts';

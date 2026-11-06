@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { Hono, type Context } from 'hono';
 import { getConnInfo } from '@hono/node-server/conninfo';
 import { html } from 'hono/html';

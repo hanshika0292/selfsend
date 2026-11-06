@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { parseJson } from './util.ts';
 
 export type ApiKeyRow = {

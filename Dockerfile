@@ -4,6 +4,7 @@ ENV NODE_ENV=production
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev && npm cache clean --force
 COPY src ./src
+COPY LICENSE THIRD_PARTY_NOTICES.md ./
 RUN mkdir -p /app/data && chown -R node:node /app/data
 USER node
 EXPOSE 3000

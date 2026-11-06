@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hanshika Gupta
 import { createHash, createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 import { appSecret } from './db.ts';
 
